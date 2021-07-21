@@ -26,7 +26,7 @@ module.exports = {
         new AddAssetHtmlPlugin([
             { filepath: require.resolve('./static/js/static.bundle.js'), publicPath: '' },
             { filepath: require.resolve('./static/js/2.46573e9c.chunk.js'), publicPath: '' },
-            { filepath: require.resolve('./static/js/main.97c8bee1.chunk.js'), publicPath: '' },
+            //{ filepath: require.resolve('./static/js/main.97c8bee1.chunk.js'), publicPath: '' },
         ]),
         new HtmlWebpackPlugin({
             filename: 'index.html',
